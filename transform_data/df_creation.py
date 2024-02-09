@@ -34,7 +34,7 @@ def create_df(api_re_loc):
     # Combine the dimension and metric data into a single DataFrame
     df1 = pd.concat(objs=(pd.DataFrame(d), pd.DataFrame(m)), axis=1)
 
-    # lowercase lPPQS before anonymization
+    # lowercase lPPQS 
     df1['landingPagePlusQueryString'] = df1['landingPagePlusQueryString'].str.lower()
 
     
