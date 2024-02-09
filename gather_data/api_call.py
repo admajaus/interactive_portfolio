@@ -11,9 +11,9 @@ def call_api():
         RunReportRequest,
     )
 
-    property_id = '<INSERT_GOOGLE_ANALYTICS_ASSET_PROPRTY_ID'
+    property_id = '<INSERT_GOOGLE_ANALYTICS_ASSET_PROPRTY_ID>'
 
-    keys = '<INSERT_JSON_KEY_FOR_SERVICE_ACCOUNT_CREDENTIALS_VERIFICATION'
+    keys = '<INSERT_JSON_KEY_FOR_SERVICE_ACCOUNT_CREDENTIALS_VERIFICATION>'
 
     credentials = service_account.Credentials.from_service_account_file(filename=keys)
 
