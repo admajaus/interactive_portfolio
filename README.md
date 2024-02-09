@@ -5,9 +5,11 @@ Interactive Portfolio
 Most portfolios are static and visualize only the end result: a dashboard, app, program, or model.  Some of the best skills possessed by a professional aren’t reflected in the final product, but instead in the journey creating the final product. However these skills are often lost in complex, lengthy code blocks or code repositories that are difficult for most people to read, understand, and conceptualize. This Interactive Portfolio uses a responsive, dynamic interface to bring this convoluted code and obscured skill set to light, allowing users to interact with the underlying code to unveil the journey in creating a final product.  This provides a more holistic view of a professional’s work and accomplishments.
 
 ### INSTALLATION AND RUNNING THE PROGRAM
-This will need to be deployed using Heroku, AWS, or another cloud or container provider if you’d like your portfolio to be available on the web.
+This app will need to be deployed using Heroku, AWS, or another cloud or container provider if you’d like your portfolio to be available on the web.
 
-For local deployment, clone the GitHub repository, navigate to the app’s directory, create a virtual environment, install the dependencies in requirements.text, and run the app.
+For local deployment, clone this GitHub repository, navigate to the app’s directory, create a virtual environment, and install the dependencies in requirements.text. You'll need to populate the json key and property_id in gather_data\api_call.py if you intend to run the app as is.
+
+**Each data_wrangling.py and app.py need are run independently. This intentionally seperates the api call and data transformations from the app rendering so that you're not calling the api and transforming your data every time you launch the app**
 
 
 ### CUSTOMIZING THE TABULAR FOR YOUR OWN WORK:
