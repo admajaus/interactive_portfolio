@@ -1,4 +1,5 @@
-## PROJECT TITLE: Interactive Portfolio
+## PROJECT TITLE: 
+Interactive Portfolio
 
 ## PROJECT DESCRIPTION:
 Most portfolios are static and visualize only the end result: a dashboard, app, program, or model.  Some of the best skills possessed by a professional aren’t reflected in the final product, but instead in the journey creating the final product. However these skills are often lost in complex, lengthy code blocks or code repositories that are difficult for most people to read, understand, and conceptualize. This Interactive Portfolio uses a responsive, dynamic interface to bring this convoluted code and obscured skill set into the light, allowing users to interact with the underlying code to unveil the journey in creating a final product.  This provides a more holistic view of a professional’s work and accomplishments in creating the final product.
