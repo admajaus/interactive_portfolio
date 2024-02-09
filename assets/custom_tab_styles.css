@@ -1,0 +1,14 @@
+.tab {
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+.tab--selected {
+    color: black;
+    box-shadow: 1px 1px 0px white;
+    border-left: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;
+    border-top: 3px solid rgb(0, 204, 150) !important;
+    font-weight: 500;
+    font-style: italic;

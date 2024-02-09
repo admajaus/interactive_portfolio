@@ -1,0 +1,4 @@
+.vertical-align-flex {
+    display: flex;
+    align-items: center; /* Adjusts vertical alignment */
+}

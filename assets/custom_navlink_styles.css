@@ -1,0 +1,8 @@
+.nav-link:hover {
+    color: rgb(0, 204, 150)!important;
+}
+
+.btn-close {
+    background-color: white !important; /* Set your desired background color */
+    border-radius: 30%; /* Optional: Adds a rounded shape around the 'X' */
+}

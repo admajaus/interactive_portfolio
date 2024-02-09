@@ -1,0 +1,6 @@
+.custom-hover-effect:hover {
+    background-color: rgb(0, 184, 135) !important; 
+    color: white !important;	
+    cursor: pointer;
+    /* Add any other hover effects you like, such as text color change, border, etc. */
+}

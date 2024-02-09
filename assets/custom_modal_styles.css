@@ -1,0 +1,3 @@
+.modal-title {
+    --bs-heading-color: rgb(0, 204, 150); /* Override the Bootstrap variable */
+}
