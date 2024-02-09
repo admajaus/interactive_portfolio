@@ -31,16 +31,18 @@ def get_transform_data():
     return locals()
 
 gtd_dict = get_transform_data()
-#
+
 # delete redundant api_re; the api response is saved as a dataframe in og_df
 del gtd_dict['api_re']
 
+# serialize each dataframe into a apache parquet file 
+# Keys: DataFrame name, Values: DataFrame
 for keys, values in gtd_dict.items():
-     values.to_parquet(path = rf'C:\Users\12488\PycharmProjects\HeySeo\parquet_objects\{keys}.parquet')
+     values.to_parquet(path = rf'C:\Users\12488\PycharmProjects\interactive_portfolio\parquet_objects\{keys}.parquet')
 
 #print(gtd_dict['removed_url_encoding'].columns)
 # print(gtd_dict['final_df']['channel_group'].value_counts())
-print(gtd_dict['cated_url_df']['surface_type'].value_counts()),
+#print(gtd_dict['cated_url_df']['surface_type'].value_counts()),
 # print(gtd_dict['final_df']['surface_detail'].value_counts())
 # # for size comparison test, parquest vs. json
 # test_df.to_json(path_or_buf = r'C:\Users\12488\PycharmProjects\HeySeo\parquet_objects\final_dfTEST.json')
