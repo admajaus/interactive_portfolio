@@ -37,12 +37,7 @@ def create_df(api_re_loc):
     # lowercase lPPQS before anonymization
     df1['landingPagePlusQueryString'] = df1['landingPagePlusQueryString'].str.lower()
 
-    #anonymize app name
-    #hey
-    pattern_loc = r'hey[\W]*m[ea]*rch|hey scaricity|hey'
-    to_replc_loc = 'AnonymizedAppName'
-    df1['landingPagePlusQueryString'] = df1['landingPagePlusQueryString'].str.replace(pattern_loc,to_replc_loc,regex=True, flags=re.I)
-
+    
     # assign efficient dtypes early on to reduce memory and processing overhead
     for col in df1.columns:
         # for each col in df1, assign the dtype using the dtype_dct
