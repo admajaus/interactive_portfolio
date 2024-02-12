@@ -9,7 +9,7 @@ The majority of the vizualizations in this app are created based on data extract
 
 For local deployment, clone this GitHub repository, navigate to the app’s directory, create a virtual environment, and install the dependencies in requirements.text. You'll need to populate the json key and property_id in gather_data\api_call.py if you intend to run the app as is.
 
-**Each data_wrangling.py and app.py need are run independently. This intentionally seperates the api call and data transformations from the app rendering so that you're not calling the api and transforming your data every time you launch the app**
+**Each data_wrangling.py and app.py are run independently. This intentionally seperates the api call and data transformations from the app rendering so that you're not calling the api and transforming your data every time you launch the app**
 
 
 ### CUSTOMIZING THE TABULAR FOR YOUR OWN WORK:
